@@ -44,11 +44,11 @@ print('\n-----------3、10000以内完美数--------------')
 
 sums = 0
 for _ in range(1, 10000):
-    for _in in range(1, _in):
+    for _in in range(1, _):
         if _ % _in == 0:
             sums += _in
-            if _in > 1:
-                sums += _in
+            # if _in > 1:
+            #     sums += _in
     if sums == _:
         print('完美数:%d' % _)
     sums = 0
